@@ -4,4 +4,5 @@ window.addEventListener('keydown', function(keyboardEvent) {
     console.log(audio, keyboardEvent.keyCode);
     audio.currentTime = 0
     audio.play();
+    key.add.classList('playing');
 })
